@@ -1,0 +1,372 @@
+/* UTILITARIO DEV ================================================================== */
+.bred {
+  border: 1px solid red;
+}
+
+.bblue {
+  border: 1px solid blue;
+}
+
+.bgreen {
+  border: 1px solid green;
+}
+
+.byellow {
+  border: 1px solid yellow;
+}
+
+/* UTILITARIO DEV ================================================================== */
+
+.linha {
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-image: linear-gradient(to right, #ffffff00, #949292, #ffffff00) 1;
+}
+
+:root {
+  --primary-color: #e91e63;
+
+  --secondary-color: #f8bbd0;
+
+  --background-top-text-video: linear-gradient(
+    to bottom,
+    var(--primary-color),
+    #212121 60%
+  );
+
+  --background-clients: linear-gradient(to bottom, #dbdbdb, #fff);
+
+  --background-beneficios-produtos: linear-gradient(
+    to bottom,
+    #fff 80%,
+    #dbdbdb
+  );
+
+  --background-pos-beneficios: linear-gradient(to bottom, white, #dbdbdb 10%);
+
+  --cor-linha-lateral-timeline: linear-gradient(to bottom, #dbdbdb, #fff);
+
+  --background-cards-processo-desenvolvimento: linear-gradient(
+    to bottom,
+    #fff,
+    #dbdbdb 10%
+  );
+
+  --background-leads: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    var(--secondary-color),
+    var(--primary-color)
+  );
+
+  /* bootstrap sobreposicoes */
+  /* accordeon FAQ */
+
+  --bs-accordion-active-color: var(--primary-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* BACKGROUND COLORS ==================================================================*/
+
+#text-video-top-page > div {
+  background: var(--background-top-text-video);
+}
+
+#client-logo > div {
+  background: var(--background-clients);
+}
+
+#container-black-top-page {
+  background-color: var(--primary-color);
+}
+
+#beneficios-produto > div {
+  background: var(--background-beneficios-produtos);
+}
+
+#background-pos-beneficios-itens {
+  background: var(--background-pos-beneficios);
+}
+
+#cards-processo-desenvolvimento {
+  background: #fff;
+}
+
+#leads {
+  background: var(--background-leads);
+}
+
+#livepreview {
+  background-color: var(--primary-color);
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.custom-button-outline {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color) !important;
+}
+
+.custom-button-outline:hover {
+  background-color: var(--primary-color);
+}
+
+.custom-color-for-button {
+  border: none;
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.custom-color-for-button:hover {
+  background-color: var(--secondary-color) !important;
+}
+
+/* NAVBAR ==================================================================*/
+
+.navbar {
+  background: linear-gradient(to right, #f3f3f3, #eeeeee);
+}
+
+.nav-item {
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  background-color: white;
+  margin: 5px;
+}
+
+.nav-link {
+  margin: 5px;
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+/* TEXTO INICIAL ==================================================================*/
+
+.texto-maior-inicio {
+  font-size: 5vw;
+  font-weight: bold;
+  color: black;
+  /* background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255); */
+}
+
+.texto-maior-inicio span {
+  background-image: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+}
+
+.texto-menor-inicio {
+  font-size: 16px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .texto-maior-inicio {
+    font-size: 9vw;
+    /* Tamanho para telas igual ou menores que 'sm' */
+  }
+}
+
+/* LOGOS CLIENTES ==================================================================*/
+
+@keyframes slideToLeft {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translate(-100%);
+  }
+}
+
+.logos-clientes {
+  height: 200px;
+  white-space: nowrap;
+  padding: 0 20px;
+}
+
+.logos-slide {
+  animation: 25s slideToLeft infinite linear;
+}
+
+.logos-slide img {
+  margin: 0px 40px;
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 10vw;
+  max-height: 7vh;
+  min-height: 40px;
+  min-width: 120px;
+  transition: filter 0.1s ease;
+}
+
+.logos-slide img:hover {
+  filter: grayscale(100%);
+}
+
+/* BENEFICIOS PRODUTO ================================================================== */
+
+/* PÓS BENEFICIOS ================================================================== */
+
+.texto-maior-pos-beneficios {
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.texto-maior-pos-beneficios span {
+  background-image: linear-gradient(
+    to right,
+    var(--primary-color),
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.texto-menor-pos-beneficios {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .texto-maior-pos-beneficios {
+    font-size: 6vw;
+    /* Tamanho para telas igual ou menores que 'sm' */
+  }
+}
+
+/* TIMELINE */
+
+.progress-bar {
+  background-color: var(--primary-color);
+}
+
+.active-timeline-text {
+  color: var(--primary-color);
+}
+
+.timeline-text-clickable {
+  cursor: pointer;
+}
+
+.swiper-slide {
+  opacity: 0.4;
+  transform: scale(1);
+  transition: opacity 1s linear, transform 1s linear;
+
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.swiper-slide-active {
+  transform: scale(1.1);
+  opacity: 1;
+  transition: opacity 1s linear, transform 1s linear;
+}
+
+.container-swiper-slide-item {
+  border: 1px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to bottom,
+    var(--primary-color),
+    #fff 30%
+  );
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+/* PROCESSO */
+
+.card-process {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+/* FAQ */
+
+.accordion-button {
+  color: var(--primary-color);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.accordion-button:not(:focus) {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+/* LEADS */
+
+.texto-maior-leads {
+  font-weight: bold;
+  font-size: 3rem;
+  color: white;
+}
+
+.texto-menor-leads {
+  font-size: 1rem;
+  color: white;
+}
+
+/* RODAPE */
+
+#rodape .container-fluid {
+  background-color: black;
+}
+
+#rodape a {
+  text-decoration: none;
+  color: gray;
+}
+
+#rodape p {
+  color: white;
+}
+
+/* RODAPE FINAL */
+
+#rodape-final .container-fluid {
+  background-color: black;
+}
+
+#rodape-final a {
+  text-decoration: none;
+  color: gray;
+}

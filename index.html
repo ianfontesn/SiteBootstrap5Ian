@@ -1,0 +1,1488 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <title>SUA EMPRESA</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+
+    <!-- Bootstrap CSS v5.3.2 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- FONT POPPINS - GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS DO PROJETO -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- ANIMATE.CSS (LIB DE ANIMACOES BÁSICAS) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- AOS.JS (ANIMAÇÕES BASICAS ON SCROLL) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- three js -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@v0.165.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.165.0/examples/jsm/"
+        }
+      }
+    </script>
+
+   
+
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg p-3 fixed-top">
+            <div class="container-fluid animate__fadeOutUpBig">
+                <a class="navbar-brand bg-white p-3 border-white rounded-4" href="#">
+                    <img src="assets/imgs/logo_ian.png" width="48px" alt="Ian Fontes"> IAN FONTES
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end vh-100" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MENU</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav bg-white flex-grow-1 border-white rounded-5 justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PARCEIROS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    CASOS DE USO
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Caso de uso 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Caso de uso 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Caso de uso 3</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Algum outro caso</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    RECURSOS
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Recurso 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Recurso 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Recurso 3</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Recursos diversos</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav rounded-5">
+                            <li class="m-2">
+                                <button type="button" class="btn btn-outline-success custom-button-outline" href="#"><strong>Conheça!
+                                        <img src="assets/imgs/icones/seta-icone-verde-direita.png"></strong></a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="container-black-top-page">
+            <div
+                class="container-fluid bg-dark d-flex flex-grow-1 flex-shrink-1 justify-content-center animate__animated animate__fadeInDown ">
+                <div class="row align-items-center justify-content-center p-2 ">
+                    <div class="col text-nowrap text-center p-2">
+                        <h1 class="" style="color: white;">Lorem
+                            Ipsum Dollor</h1>
+                    </div>
+                    <div class="col text-center p-2">
+                        <button type=" button" class="btn btn-outline-success custom-button-outline" href="#">
+                            <strong>SAIBA MAIS</strong>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="text-video-top-page">
+
+            <div
+                class="container-fluid d-flex flex-column flex-shrink-1 flex-grow-1 align-items-center justify-content-evenly pt-5 text-center">
+
+                <div class="row">
+                    <div class="col">
+                        <p class="texto-maior-inicio" data-aos="fade-up" data-aos-duration="800">Lorem Ipsum Dollor</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="texto-maior-inicio" data-aos="fade-up" data-aos-duration="1200">Sit Amet consectetur</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <p class="texto-maior-inicio" data-aos="fade-up" data-aos-duration="1400">
+                            elit a
+                            <span>Vestibulum</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row py-4">
+                    <div class="col">
+                        <p class="texto-menor-inicio"> 
+                            Lorem ipsum dolor sit amet consecteturamet consectetur
+                            <br> Fusce quam sapien, faucibus at pellentesque sed
+                            <br> maximus, tortor odio vestibulum metusamet consectetur
+                            <br> Aenean sed eros placerat dui amet consectetur
+                            <br> eugiat luctus nec nec quamamet consectetur
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row py-4">
+                    <div class="col">
+                        <button class="btn btn-lg btn-success custom-color-for-button " type="button">Conheça o serviço</button>
+                    </div>
+                </div>
+
+                <div class="row py-4 px-2 justify-content-center">
+                    <div
+                        class="col-md-9 p-0 d-flex align-items-center justify-content-center rounded-5 overflow-hidden shadow-lg">
+                        <video class="mw-100" autoplay="true" loop="true" muted="true" playsinline="true"
+                            data-object-fit="cover">
+                            <source src="assets/videos/video-modelo.mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="client-logo">
+            <div class="container-fluid p-0 pt-5">
+                <div class="flex-row logos-clientes d-flex overflow-hidden align-items-center">
+                    <div class="col p-0 logos-slide">
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                    </div>
+                    <div class="col p-0 logos-slide">
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                    </div>
+                    <div class="col p-0 logos-slide">
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                        <img src="assets/imgs/logo_ian.png"></img>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios-produto">
+            <div class="container-fluid py-5 ">
+
+                <div class="row justify-content-center justify-content-md-evenly mt-5" data-aos="zoom-in"
+                    data-aos-duration="1500">
+                    <div
+                        class="col-12 col-md-6 col-lg-4 p-0 d-flex flex-column text-center align-items-center text-md-start align-items-md-start justify-content-center">
+
+                        <img src="assets/imgs/icones/negocios-icon.png" style="width: 70px;"
+                            class="m-4 mt-2 mb-2 p-3 shadow-sm rounded rounded-4 align-self-md-start align-self-center">
+                        </img>
+
+                        <p class="h1 my-0 mb-4 ms-4">
+                            Aqui será o título.
+                        </p>
+                        <p class="h6 m-4">
+                            Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque posuere cursus luctus.
+                            Morbi egestas lorem eu nisl
+                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet, consectetur adipiscing
+                            elit. Quisque posuere cursus
+                            luctus. Morbi egestas lorem eu nisl commodo gravida a nec eros. In porttitor
+                        </p>
+                        <button type="button" class="btn btn-secondary btn-lg m-4 custom-color-for-button">
+                            FIQUE POR DENTRO
+                        </button>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-0 d-flex justify-content-center align-items-center">
+                        <img src="assets/imgs/img3.png" class="img-fluid shadow-lg rounded rounded-4">
+                    </div>
+                </div>
+
+                <div class="row justify-content-center justify-content-md-evenly mt-5" data-aos="zoom-in"
+                    data-aos-duration="1500">
+
+                    <div
+                        class="col-12 col-md-6 col-lg-4 p-0 d-flex flex-column text-center align-items-center text-md-start align-items-md-start justify-content-center order-md-1">
+
+                        <img src="assets/imgs/icones/historia-icone.png" style="width: 70px;"
+                            class="m-4 mt-2 mb-1 p-3 bg-white shadow-sm rounded rounded-4"></img>
+
+                        <p class="h1 my-0 mb-4 ms-4">
+                            Aqui será o título.
+                        </p>
+                        <p class="h6 m-4">
+                            Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque posuere cursus luctus.
+                            Morbi egestas lorem eu nisl
+                            commodo gravida a nec eros. In porttitor
+                            Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque posuere cursus luctus.
+                            Morbi egestas lorem eu nisl
+                            commodo gravida a nec eros. In porttitor
+                        </p>
+                        <button type="button" class="btn btn-secondary btn-lg m-4 custom-color-for-button">
+                            FIQUE POR DENTRO
+                        </button>
+                    </div>
+
+                    <div
+                        class="col-12 col-md-6 col-lg-4 p-0 d-flex justify-content-center align-items-center order-md-0">
+                        <img src="assets/imgs/img1.jpg" class="img-fluid shadow-lg rounded rounded-4">
+                    </div>
+                </div>
+
+                <div class="row justify-content-center justify-content-md-evenly mt-5" data-aos="zoom-in"
+                    data-aos-duration="1500">
+                    <div
+                        class="col-12 col-md-6 col-lg-4 p-0 d-flex flex-column text-center align-items-center text-md-start align-items-md-start justify-content-center">
+
+                        <img src="assets/imgs/icones/icone-pessoa.png" style="width: 70px;"
+                            class="m-4 mt-2 mb-0 p-3 bg-white shadow-sm rounded rounded-4"></img>
+
+                        <p class="h1 my-0 mb-4 ms-4">
+                            Aqui será o título.
+                        </p>
+                        <p class="h6 m-4">
+                            Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque posuere cursus luctus.
+                            Morbi egestas lorem eu nisl
+                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet, consectetur adipiscing
+                            elit. Quisque posuere cursus
+                            luctus. Morbi egestas lorem eu nisl commodo gravida a nec eros. In porttitor
+                        </p>
+                        <button type="button" class="btn btn-secondary btn-lg m-4 custom-color-for-button">
+                            FIQUE POR DENTRO
+                        </button>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 p-0 d-flex justify-content-center align-items-center">
+                        <img src="assets/imgs/img2.jpg" class="img-fluid shadow-lg rounded rounded-4">
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section id="pos-beneficios">
+            <div class="container-fluid py-5 " data-aos="fade-right" data-aos-duration="1500">
+
+                <div class="row flex-column align-items-center align-items-lg-start">
+                    <div class="col-10 col-md-6 text-center text-lg-start m-lg-5 mb-lg-0">
+                        <p class="texto-maior-pos-beneficios ">Aqui vai outro titulo a sua escolha. Seja
+                            <span>criativo</span>
+                        </p>
+                    </div>
+
+                    <div class="col-12  col-md-10 col-lg-6 text-center text-lg-start m-lg-5 mt-lg-0">
+                        <p class="texto-menor-pos-beneficios text-center text-lg-start">
+                            A indústria de mineração está evoluindo,
+                            <br> e a maneira como os investidores absorvem informações
+                            <br> também está. Substitua slides estáticos e difíceis de entender
+                            <br> e apresentações de pitch de papel, por apresentações
+                            <br> 3D interativas usando TecInsight
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="background-pos-beneficios-itens" class="container-fluid rounded-top-5 pb-5">
+                <div class="row justify-content-center justify-content-md-evenly mt-5" data-aos="zoom-in"
+                    data-aos-duration="1500">
+
+                    <div class="col-12 pb-3 pt-5">
+
+                        <div class="linha container mw-75 ">
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col d-flex align-items-center justify-content-start">
+
+                                <img src="assets/imgs/icones/seta-diagonal-direita.png" class="ms-5 me-2 mt-2"
+                                    style="width: 20px;">
+
+                                <p class="h6 pt-3">Um textinho aqui...</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4 p-0 p-md-3 d-flex justify-content-center align-items-center">
+                        <img src="assets/imgs/img3.png" class="img-fluid shadow-lg rounded rounded-4">
+                    </div>
+                    <div
+                        class="col-12 col-md-6 col-lg-4 p-0 p-md-3 mt-5 d-flex flex-column text-center align-items-center text-md-start align-items-md-start justify-content-center">
+                        <p class="h6 fs-3">
+                            Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque posuere cursus luctus.
+                            Morbi egestas lorem eu nisl
+                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet, consectetur
+                            adipiscing
+                            elit. Quisque posuere cursus
+                        </p>
+
+                        <button type="button" class="btn btn-success p-3 btn-lg mt-3 custom-color-for-button">
+                            FIQUE POR DENTRO
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center justify-content-md-evenly mt-5" data-aos="zoom-in"
+                    data-aos-duration="1500">
+
+                    <div class="col-12 pt-5 pb-3">
+
+                        <div class="linha container mw-75 ">
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col d-flex align-items-center justify-content-start">
+
+                                <img src="assets/imgs/icones/seta-diagonal-direita.png" class="ms-5 me-2 mt-2"
+                                    style="width: 20px;">
+
+                                <p class="h6 pt-3">Um textinho aqui...</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4  p-0 p-md-3 d-flex justify-content-center align-items-center">
+                        <img src="assets/imgs/img3.png" class="img-fluid shadow-lg rounded rounded-4">
+                    </div>
+
+                    <div
+                        class="col-12 col-md-6 col-lg-4  p-0 p-md-3 mt-5 d-flex flex-column text-center align-items-center text-md-start align-items-md-start justify-content-center">
+
+                        <p class="h6 fs-3">
+                            Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque posuere cursus luctus.
+                            Morbi egestas lorem eu nisl
+                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet, consectetur
+                            adipiscing
+                            elit.
+
+
+                        </p>
+
+                        <button type="button" class="btn btn-success p-3 btn-lg mt-3 custom-color-for-button">
+                            FIQUE POR DENTRO
+                        </button>
+
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center justify-content-md-evenly mt-5" data-aos="zoom-in"
+                    data-aos-duration="1500">
+
+                    <div class="col-12 pt-5 pb-3">
+
+                        <div class="linha container mw-75 ">
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col d-flex align-items-center justify-content-start">
+
+                                <img src="assets/imgs/icones/seta-diagonal-direita.png" class="ms-5 me-2 mt-2"
+                                    style="width: 20px;">
+
+                                <p class="h6 pt-3">Um textinho aqui...</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4  p-0 p-md-3 d-flex justify-content-center align-items-center">
+                        <img src="assets/imgs/img3.png" class="img-fluid shadow-lg rounded rounded-4">
+                    </div>
+
+                    <div class=" col-12 col-md-6 col-lg-4 p-0 p-md-3 mt-5 d-flex flex-column text-center
+                            align-items-center text-md-start align-items-md-start justify-content-center">
+
+                        <p class="h6 fs-3">
+                            Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque posuere cursus luctus.
+                            Morbi egestas lorem eu nisl
+                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet, consectetur
+                            adipiscing
+                            elit. Quisque posuere
+                        </p>
+
+                        <button type="button" class="btn btn-success p-3 btn-lg mt-3 custom-color-for-button">
+                            FIQUE POR DENTRO
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="row justify-content-center justify-content-md-evenly mt-5" data-aos="zoom-in"
+                    data-aos-duration="1500">
+
+                    <div class="col-12 pt-5 pb-3">
+
+                        <div class="linha container mw-75 ">
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col d-flex align-items-center justify-content-start">
+
+                                <img src="assets/imgs/icones/seta-diagonal-direita.png" class="ms-5 me-2 mt-2"
+                                    style="width: 20px;">
+
+                                <p class="h6 pt-3">Um textinho aqui...</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4  p-0 p-md-3 d-flex justify-content-center align-items-center">
+                        <img src="assets/imgs/img3.png" class="img-fluid shadow-lg rounded rounded-4">
+                    </div>
+
+                    <div
+                        class="col-12 col-md-6 col-lg-4  p-0 p-md-3 mt-5 d-flex flex-column text-center align-items-center text-md-start align-items-md-start justify-content-center">
+
+                        <p class="h6 fs-3">
+                            Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque posuere cursus luctus.
+                            Morbi egestas lorem eu nisl
+                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet, consectetur
+                            adipiscing
+                            elit.
+                        </p>
+
+                        <button type="button" class="btn btn-success p-3 btn-lg mt-3 custom-color-for-button">
+                            FIQUE POR DENTRO
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="linha-do-tempo">
+
+            <div class="container-fluid py-5 mt-5"> <!-- container geral-->
+
+                <div class="row flex-column align-items-center"> <!-- Etapas e linha do tempo-->
+
+                    <div class="col text-center">
+                        <p class="h1">
+                            LINHA DO TEMPO
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-md-8 timeline-container">
+                        <div class="progress" role="progressbar" aria-label="timeline" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100" style="max-height: 0.5vh;">
+                            <div class="progress-bar"></div>
+                        </div>
+
+                        <div class="col py-3 d-flex justify-content-between">
+                            <p class="h6 timeline-text-clickable active">ETAPA 1</p>
+
+                            <p class="h6 timeline-text-clickable">ETAPA 2</p>
+
+                            <p class="h6 timeline-text-clickable">ETAPA 3</p>
+
+                            <p class="h6 timeline-text-clickable">ETAPA 4</p>
+
+                            <p class="h6 timeline-text-clickable">ETAPA 5</p>
+
+                            <p class="h6 timeline-text-clickable">ETAPA 6</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- itens da linha do tempo  -->
+
+                <div class="row px-3 px-md-0 ">
+                    <div class="col px-0 my-3">
+                        <div class="swiper my-5 p-3">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide rounded rounded-bottom-4 ">
+                                    <p>• TEXTO AQUI</p>
+
+                                    <div class="container-swiper-slide-item p-3">
+                                        <img src="assets/imgs/icones/icone-pessoa.png" class="img-fluid my-5 rounded-5">
+
+                                        <p class="h1">TITULO</p>
+
+                                        <p class="h6">Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque
+                                            posuere
+                                            cursus luctus. Morbi egestas lorem eu nisl
+                                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet,
+                                            consectetur
+                                            adipiscing elit.
+                                        </p>
+                                        <button class="btn btn-lg btn-success custom-color-for-button mt-4 mb-1 ">SAIBA
+                                            MAIS</button>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide rounded rounded-bottom-4">
+                                    <p>• TEXTO AQUI</p>
+
+                                    <div class="container-swiper-slide-item p-3">
+                                        <img src="assets/imgs/icones/icone-pessoa.png" class="img-fluid my-5 rounded-5">
+
+                                        <p class="h1">TITULO</p>
+
+                                        <p class="h6">Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque
+                                            posuere
+                                            cursus luctus. Morbi egestas lorem eu nisl
+                                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet,
+                                            consectetur
+                                            adipiscing elit.
+                                        </p>
+                                        <button class="btn btn-lg btn-success custom-color-for-button mt-4 mb-1 ">SAIBA
+                                            MAIS</button>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide rounded rounded-bottom-4">
+                                    <p>• TEXTO AQUI</p>
+
+                                    <div class="container-swiper-slide-item p-3">
+                                        <img src="assets/imgs/icones/icone-pessoa.png" class="img-fluid my-5 rounded-5">
+
+                                        <p class="h1">TITULO</p>
+
+                                        <p class="h6">Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque
+                                            posuere
+                                            cursus luctus. Morbi egestas lorem eu nisl
+                                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet,
+                                            consectetur
+                                            adipiscing elit.
+                                        </p>
+                                        <button class="btn btn-lg btn-success custom-color-for-button mt-4 mb-1 ">SAIBA
+                                            MAIS</button>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide rounded rounded-bottom-4">
+                                    <p>• TEXTO AQUI</p>
+
+                                    <div class="container-swiper-slide-item p-3">
+                                        <img src="assets/imgs/icones/icone-pessoa.png" class="img-fluid my-5 rounded-5">
+
+                                        <p class="h1">TITULO</p>
+
+                                        <p class="h6">Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque
+                                            posuere
+                                            cursus luctus. Morbi egestas lorem eu nisl
+                                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet,
+                                            consectetur
+                                            adipiscing elit.
+                                        </p>
+                                        <button class="btn btn-lg btn-success custom-color-for-button mt-4 mb-1 ">SAIBA
+                                            MAIS</button>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide rounded rounded-bottom-4">
+                                    <p>• TEXTO AQUI</p>
+
+                                    <div class="container-swiper-slide-item p-3">
+                                        <img src="assets/imgs/icones/icone-pessoa.png" class="img-fluid my-5 rounded-5">
+
+                                        <p class="h1">TITULO</p>
+
+                                        <p class="h6">Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque
+                                            posuere
+                                            cursus luctus. Morbi egestas lorem eu nisl
+                                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet,
+                                            consectetur
+                                            adipiscing elit.
+                                        </p>
+                                        <button class="btn btn-lg btn-success custom-color-for-button mt-4 mb-1 ">SAIBA
+                                            MAIS</button>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide rounded rounded-bottom-4">
+                                    <p>• TEXTO AQUI</p>
+
+                                    <div class="container-swiper-slide-item p-3">
+                                        <img src="assets/imgs/icones/icone-pessoa.png" class="img-fluid my-5 rounded-5">
+
+                                        <p class="h1">TITULO</p>
+
+                                        <p class="h6">Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque
+                                            posuere
+                                            cursus luctus. Morbi egestas lorem eu nisl
+                                            commodo gravida a nec eros. In porttitor Aqui a descrição: sit amet,
+                                            consectetur
+                                            adipiscing elit.
+                                        </p>
+                                        <button class="btn btn-lg btn-success custom-color-for-button mt-4 mb-1 ">SAIBA
+                                            MAIS</button>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="linha container mw-75 ">
+                </div>
+
+        </section>
+
+        <section id="cards-processo-desenvolvimento" class="">
+            <div class="container-fluid">
+
+                <div class="row justify-content-center " data-aos="zoom-in" data-aos-duration="1000">
+                    <div class=" col-12 col-md-10 text-center text-md-start m-4 ">
+                        <p class="texto-maior-pos-beneficios">Entenda nosso <span>processo</span>
+                        </p>
+                        <p class="h6">Um pequeno texto pode ser colocado aqui! </p>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-center justify-content-md-around">
+
+                    <div class=" col-10 col-md-4 col-lg-2 d-flex flex-column align-items-center card-process rounded rounded-3 mx-4 my-5 "
+                        data-aos="zoom-in-down" data-aos-duration="800">
+                        <img src="assets/imgs/icones/1-circular.png" class="mt-3" style="width: 50px;">
+
+                        <img src="assets/imgs/img3.png" class="img-fluid my-3 rounded rounded-4">
+
+                        <div class="linha container mw-75 my-2">
+                        </div>
+
+                        <p class="h3">Processo</p>
+
+                        <p class="h6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit
+                            amet consectetur lacus. Aenean rhoncus orci justo,
+                            viverra accumsan massa tempus et. Lorem ipsum dolor
+                        </p>
+                    </div>
+
+                    <div class="col-10 col-md-4 col-lg-2 d-flex flex-column align-items-center card-process rounded rounded-3 mx-4 my-5 "
+                        data-aos="zoom-in-down" data-aos-duration="900">
+                        <img src="assets/imgs/icones/2-circular.png" class="mt-3" style="width: 50px;">
+
+                        <img src="assets/imgs/img3.png" class="img-fluid my-3 rounded rounded-4">
+
+                        <div class="linha container mw-75 my-2">
+                        </div>
+
+                        <p class="h3">Processo</p>
+
+                        <p class="h6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit
+                            amet consectetur lacus. Aenean rhoncus orci justo,
+                            viverra accumsan massa tempus et. Lorem ipsum dolor
+                        </p>
+                    </div>
+
+                    <div class="col-10 col-md-4 col-lg-2 d-flex flex-column align-items-center card-process rounded rounded-3 mx-4 my-5 "
+                        data-aos="zoom-in-down" data-aos-duration="1000">
+                        <img src="assets/imgs/icones/3-circular.png" class="mt-3" style="width: 50px;">
+
+                        <img src="assets/imgs/img3.png" class="img-fluid my-3 rounded rounded-4">
+
+                        <div class="linha container mw-75 my-2">
+                        </div>
+
+                        <p class="h3">Processo</p>
+
+                        <p class="h6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit
+                            amet consectetur lacus. Aenean rhoncus orci justo,
+                            viverra accumsan massa tempus et. Lorem ipsum dolor
+                        </p>
+                    </div>
+
+                    <div class="col-10 col-md-4 col-lg-2 d-flex flex-column align-items-center card-process rounded rounded-3 mx-4 my-5 "
+                        data-aos="zoom-in-down" data-aos-duration="1100">
+                        <img src="assets/imgs/icones/4-circular.png" class="mt-3" style="width: 50px;">
+
+                        <img src="assets/imgs/img3.png" class="img-fluid my-3 rounded rounded-4">
+
+                        <div class="linha container mw-75 my-2">
+                        </div>
+
+                        <p class="h3">Processo</p>
+
+                        <p class="h6">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit
+                            amet consectetur lacus. Aenean rhoncus orci justo,
+                            viverra accumsan massa tempus et. Lorem ipsum dolor
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="livepreview" class="">
+
+            <div class="container-fluid pt-5">
+
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-10 d-flex justify-content-center ">
+                        <p class="texto-maior-pos-beneficios text-center pt-5 text-white" style="font-size: 4rem;">
+                            Experimente
+                        </p>
+                    </div>
+                </div>
+
+              <div class="row py-4 px-2 justify-content-center">
+                    <div
+                        class="col-md-9 p-0 d-flex align-items-center justify-content-center rounded-5 overflow-hidden shadow-lg">
+                        <video class="mw-100" autoplay="true" loop="true" muted="true" playsinline="true"
+                            data-object-fit="cover">
+                            <source src="assets/videos/video-modelo.mp4">
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="clientes-reports">
+            <div class="container-fluid py-5">
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-10 d-flex justify-content-center p-5">
+                        <p class="texto-maior-pos-beneficios text-center" data-aos="zoom-in" data-aos-duration="1500">
+                            O que
+                            <span>
+                                nossos clientes <br>
+                            </span>
+                            estão
+                            <span> dizendo?</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col justify-content-center">
+                        <div id="carousel-client-report" class="carousel carousel-dark slide carousel-fade"
+                            data-bs-ride="carousel">
+
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-client-report" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carousel-client-report" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carousel-client-report" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carousel-client-report" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carousel-client-report" data-bs-slide-to="4"
+                                    aria-label="Slide 5"></button>
+                            </div>
+
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item bg-body active">
+                                    <div class="row justify-content-center ">
+                                        <div
+                                            class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+
+                                            <img src="assets/imgs/icones/info.png" alt="..." style="width: 6rem;"><br>
+
+                                            <div class="container">
+                                                <img src="assets/imgs/icones/aspa.png" class="align-self-start"
+                                                    style="width: 4rem;">
+                                                <p class="h4 text-center p-3 p-md-5">
+                                                    Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque
+                                                    posuere cursus luctus.
+                                                    Morbi egestas lorem eu nisl
+                                                    commodo gravida a nec eros. In porttitor Aqui a descrição: sit
+                                                    amet,
+                                                    consectetur adipiscing
+                                                    elit. Quisque posuere cursus
+                                                    luctus. Morbi egestas lorem eu nisl commodo gravida a nec eros.
+                                                    In
+                                                    porttitor
+                                                </p>
+
+                                                <div class="text-center container">
+
+                                                    <p class="h6 fw-bold ">
+                                                        Ian Fontes
+                                                    </p>
+                                                    <p class="h6">
+                                                        Desenvolvedor<br>
+                                                        SUA EMPRESA
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <img src="assets/imgs/icones/aspa2.png" class="align-self-end"
+                                                style="width: 4rem;">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="carousel-item bg-body ">
+                                    <div class="row justify-content-center ">
+                                        <div
+                                            class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+
+                                            <img src="assets/imgs/icones/info.png" alt="..." style="width: 6rem;"><br>
+
+                                            <div class="container">
+                                                <img src="assets/imgs/icones/aspa.png" class="align-self-start"
+                                                    style="width: 4rem;">
+                                                <p class="h4 text-center p-3 p-md-5">
+                                                    Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque
+                                                    posuenisl
+                                                    commodo gravida a nec eros. In porttitor Aqui a descrição: sit
+                                                    amet,
+                                                    consectetur adipiscing
+                                                    elit
+                                                    porttitor
+                                                </p>
+
+                                                <div class="text-center container">
+
+                                                    <p class="h6 fw-bold ">
+                                                        Ian Fontes
+                                                    </p>
+                                                    <p class="h6">
+                                                        Desenvolvedor<br>
+                                                        SUA EMPRESA
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <img src="assets/imgs/icones/aspa2.png" class="align-self-end"
+                                                style="width: 4rem;">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="carousel-item bg-body ">
+                                    <div class="row justify-content-center ">
+                                        <div
+                                            class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+
+                                            <img src="assets/imgs/icones/info.png" alt="..." style="width: 6rem;"><br>
+
+                                            <div class="container">
+                                                <img src="assets/imgs/icones/aspa.png" class="align-self-start"
+                                                    style="width: 4rem;">
+                                                <p class="h4 text-center p-3 p-md-5">
+                                                    Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque
+                                                    luctus. Morbi egestas lorem eu nisl commodo gravida a nec eros.
+                                                    In
+                                                    porttitor
+                                                </p>
+
+                                                <div class="text-center container">
+
+                                                    <p class="h6 fw-bold ">
+                                                        Ian Fontes
+                                                    </p>
+                                                    <p class="h6">
+                                                        Desenvolvedor<br>
+                                                        SUA EMPRESA
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <img src="assets/imgs/icones/aspa2.png" class="align-self-end"
+                                                style="width: 4rem;">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="carousel-item bg-body ">
+                                    <div class="row justify-content-center ">
+                                        <div
+                                            class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+
+                                            <img src="assets/imgs/icones/info.png" alt="..." style="width: 6rem;"><br>
+
+                                            <div class="container">
+                                                <img src="assets/imgs/icones/aspa.png" class="align-self-start"
+                                                    style="width: 4rem;">
+                                                <p class="h4 text-center p-3 p-md-5">
+                                                    uere cursus luctus.
+                                                    Morbi egestas lorem eu nisl
+                                                    commodo gravida a nec eros. In porttitor Aqui a descrição: sit
+                                                    amet,
+                                                    consectetur adipiscing
+                                                    elit. Quisque posuere cursus
+                                                    luctus. Morbi egestas lorem eu nisl commodo gravida a nec eros.
+                                                    In
+                                                    porttitor
+                                                </p>
+
+                                                <div class="text-center container">
+
+                                                    <p class="h6 fw-bold ">
+                                                        Ian Fontes
+                                                    </p>
+                                                    <p class="h6">
+                                                        Desenvolvedor<br>
+                                                        SUA EMPRESA
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <img src="assets/imgs/icones/aspa2.png" class="align-self-end"
+                                                style="width: 4rem;">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="carousel-item bg-body ">
+                                    <div class="row justify-content-center ">
+                                        <div
+                                            class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center">
+
+                                            <img src="assets/imgs/icones/info.png" alt="..." style="width: 6rem;"><br>
+
+                                            <div class="container">
+                                                <img src="assets/imgs/icones/aspa.png" class="align-self-start"
+                                                    style="width: 4rem;">
+                                                <p class="h4 text-center p-3 p-md-5">
+                                                    Aqui a descrição: sit amet, consectetur adipiscing elit. Quisque
+                                                    posuere cursus luctus.
+                                                    Morbi egestas lorem eu nisl
+                                                    commodo gravida a nec eros. In porttitor Aqui a descrição: sit
+                                                    amet,
+
+                                                </p>
+
+                                                <div class="text-center container">
+
+                                                    <p class="h6 fw-bold ">
+                                                        Ian Fontes
+                                                    </p>
+                                                    <p class="h6">
+                                                        Desenvolvedor<br>
+                                                        SUA EMPRESA
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <img src="assets/imgs/icones/aspa2.png" class="align-self-end"
+                                                style="width: 4rem;">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+        </section>
+
+        <section id="faq">
+            <div class="container-fluid py-5 ">
+
+                <div class="linha container mw-75 py-5 ">
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-10 d-flex justify-content-center p-5">
+                        <p class="texto-maior-pos-beneficios text-center" style="font-size: 4.5rem;">
+                            FAQ
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-10 ">
+
+                        <div class="accordion shadow  rounded rounded-2" id="accordionFaq">
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        <p class="fw-semibold">
+                                            Devo colocar uma pergunta?
+                                        </p>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFaq">
+                                    <div class="accordion-body">
+                                        <strong>Texto inicial</strong> Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                        Cras ut
+                                        ultricies urna. Vivamus eleifend rutrum dignissim.
+                                        Aliquam finibus justo nibh, sed gravida massa venenatis porta. Morbi magna
+                                        felis,
+                                        iaculis
+                                        malesuada massa vel, tincidunt
+                                        ultrices leo. Suspendisse iaculis vitae lorem non tincidunt. Aenean sit amet
+                                        metus non
+                                        ex
+                                        convallis dapibus. Nullam non
+                                        feugiat nibh. Nunc vestibulum nibh enim, vitae porttitor ex eleifend at.
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <p class="fw-semibold">
+                                            Devo colocar uma pergunta?
+                                        </p>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFaq">
+                                    <div class="accordion-body">
+                                         <strong>Texto inicial</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut ultricies urna.
+                                        Vivamus
+                                        eleifend rutrum dignissim.
+                                        Aliquam finibus justo nibh, sed gravida massa venenatis porta. Morbi magna
+                                        felis,
+                                        iaculis
+                                        malesuada massa vel, tincidunt
+                                        ultrices leo. Suspendisse iaculis vitae lorem non tincidunt. Aenean sit amet
+                                        metus non
+                                        ex
+                                        convallis dapibus. Nullam non
+                                        feugiat nibh. Nunc vestibulum nibh enim, vitae porttitor ex eleifend at.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <p class="fw-semibold">
+                                            Devo colocar uma pergunta?
+                                        </p>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFaq">
+                                    <div class="accordion-body">
+                                         <strong>Texto inicial</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut ultricies urna.
+                                        Vivamus
+                                        eleifend rutrum dignissim.
+                                        Aliquam finibus justo nibh, sed gravida massa venenatis porta. Morbi magna
+                                        felis,
+                                        iaculis
+                                        malesuada massa vel, tincidunt
+                                        ultrices leo. Suspendisse iaculis vitae lorem non tincidunt. Aenean sit amet
+                                        metus non
+                                        ex
+                                        convallis dapibus. Nullam non
+                                        feugiat nibh. Nunc vestibulum nibh enim, vitae porttitor ex eleifend at.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        <p class="fw-semibold">
+                                            Devo colocar uma pergunta?
+                                        </p>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFaq">
+                                    <div class="accordion-body">
+                                        <strong>Texto inicial</strong> Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit.
+                                        Cras ut
+                                        ultricies urna. Vivamus eleifend rutrum dignissim.
+                                        Aliquam finibus justo nibh, sed gravida massa venenatis porta. Morbi magna
+                                        felis,
+                                        iaculis
+                                        malesuada massa vel, tincidunt
+                                        ultrices leo. Suspendisse iaculis vitae lorem non tincidunt. Aenean sit amet
+                                        metus non
+                                        ex
+                                        convallis dapibus. Nullam non
+                                        feugiat nibh. Nunc vestibulum nibh enim, vitae porttitor ex eleifend at.
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        <p class="fw-semibold">
+                                            Devo colocar uma pergunta?
+                                        </p>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFaq">
+                                    <div class="accordion-body">
+                                         <strong>Texto inicial</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut ultricies urna.
+                                        Vivamus
+                                        eleifend rutrum dignissim.
+                                        Aliquam finibus justo nibh, sed gravida massa venenatis porta. Morbi magna
+                                        felis,
+                                        iaculis
+                                        malesuada massa vel, tincidunt
+                                        ultrices leo. Suspendisse iaculis vitae lorem non tincidunt. Aenean sit amet
+                                        metus non
+                                        ex
+                                        convallis dapibus. Nullam non
+                                        feugiat nibh. Nunc vestibulum nibh enim, vitae porttitor ex eleifend at.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <p class="fw-semibold">
+                                            Devo colocar uma pergunta?
+                                        </p>
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFaq">
+                                    <div class="accordion-body">
+                                         <strong>Texto inicial</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut ultricies urna.
+                                        Vivamus
+                                        eleifend rutrum dignissim.
+                                        Aliquam finibus justo nibh, sed gravida massa venenatis porta. Morbi magna
+                                        felis,
+                                        iaculis
+                                        malesuada massa vel, tincidunt
+                                        ultrices leo. Suspendisse iaculis vitae lorem non tincidunt. Aenean sit amet
+                                        metus non
+                                        ex
+                                        convallis dapibus. Nullam non
+                                        feugiat nibh. Nunc vestibulum nibh enim, vitae porttitor ex eleifend at.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="leads" class="rounded rounded-5 rounded-bottom-0">
+            <div class="container-fluid ">
+                <div class="row justify-content-evenly mt-5 p-3 " style="height: 70vh;">
+
+                    <div class="col-12 col-md-4 col-lg-5 d-flex flex-column  align-items-center align-items-md-start justify-content-center "
+                        data-aos="flip-left" data-aos-duration="1500">
+
+                        <p class="texto-maior-leads">Fique por
+                            dentro! </p>
+                        <p class=" texto-menor-leads ">Veja nossos conteúdos para ter ideias </p>
+
+                    </div>
+
+                    <div class="col-12 col-md-8 col-lg-6 d-flex flex-column justify-content-center"
+                        data-aos="flip-right" data-aos-duration="1500">
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="" class="form-label fw-regular text-light">Nome</label>
+                                    <input type="text" class="form-control" name="nome" id="nome"
+                                        aria-describedby="nomeId" placeholder="" />
+                                </div>
+
+                            </div>
+
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label for="" class="form-label fw-regular text-light">Sobrenome</label>
+                                    <input type="text" class="form-control" name="sobrenome" id="sobrenome"
+                                        aria-describedby="sobrenomeId" placeholder="" />
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-md-4">
+                                <div class="mb-3">
+                                    <label for="" class="form-label fw-regular text-light">Telefone</label>
+                                    <input type="text" class="form-control" name="telefone" id="telefone"
+                                        aria-describedby="telefoneId" placeholder="" />
+                                </div>
+
+                            </div>
+
+                            <div class="col-12 col-md-8">
+                                <div class="mb-3">
+                                    <label for="" class="form-label fw-regular text-light">Email</label>
+                                    <input type="text" class="form-control" name="email" id="email"
+                                        aria-describedby="emailId" placeholder="" />
+                                </div>
+
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col d-flex justify-content-center justify-content-md-start">
+                                    <button type="button"
+                                        class="btn btn-lg btn-success custom-color-for-button px-5 my-3">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="rodape">
+            <div class="container-fluid py-5">
+
+                <div class="row pt-5">
+
+                    <div class="col-12 col-lg-2 align-items-start d-flex justify-content-center">
+
+                        <img src="assets/imgs/logo_ian.png" class="my-5 my-lg-0"
+                            style="width: 12.5rem;">
+                    </div>
+
+                    <div
+                        class="col-12 col-lg-2 align-items-center align-items-lg-start flex-column d-flex my-3 my-lg-0">
+                        <p class="h5 fw-medium"> INICIO </p>
+                        <p><a href="#"> Empresa</a></p>
+                        <p><a href="#"> Plataforma</a></p>
+                        <p><a href="#"> Contato</a></p>
+                    </div>
+
+                    <div
+                        class="col-12 col-lg-2 align-items-center align-items-lg-start flex-column d-flex my-3 my-lg-0">
+
+                        <p class="h5 fw-medium"> SOBRE </p>
+                        <p></p><a href="#"> Sobre nós</a></p>
+                        <p><a href="#"> Carreira</a></p>
+                        <p><a href="#"> Torne-se Parceiro</a></p>
+
+                    </div>
+
+                    <div
+                        class="col-12 col-lg-2 align-items-center  align-items-lg-start flex-column d-flex my-3 my-lg-0">
+
+                        <p class="h5 fw-medium"> POR ESTAGIOS </p>
+                        <p><a href="#"> Idealização</a></p>
+                        <p><a href="#"> Coleta de Requisitos</a></p>
+                        <p><a href="#"> Alinhamento</a></p>
+                        <p><a href="#"> Escolha das tecnologias</a></p>
+                        <p><a href="#"> Inicio do projeto</a></p>
+                        <p><a href="#"> Desenvolvimento</a></p>
+                        <p><a href="#"> Entrega </a></p>
+
+                    </div>
+
+                    <div
+                        class="col-12 col-lg-2 align-items-center  align-items-lg-start  flex-column d-flex my-3 my-lg-0">
+
+                        <p class="h5 fw-medium"> POR USOS</p>
+                        <p><a href="#"> Reunião de investidores</a></p>
+                        <p><a href="#"> Videos</a></p>
+                        <p><a href="#"> Comunicações</a></p>
+                        <p><a href="#"> Partes interessadas</a></p>
+
+                    </div>
+
+                    <div
+                        class="col-12 col-lg-2 align-items-center  align-items-lg-start  flex-column d-flex my-3 my-lg-0 ">
+
+                        <p class="h5 fw-medium"> RECURSOS</p>
+                        <p><a href="#"> Todos os recursos</a></p>
+                        <p><a href="#"> Blog</a></p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="rodape-final">
+            <div class="container-fluid">
+                <div class="row flex-row pt-5 justify-content-center align-items-center">
+
+                    <div class="col-12 col-lg-2 d-flex justify-content-evenly pb-5 pb-lg-0">
+                        <img src="assets/imgs/icones/youtube.png" style="width: 2.5rem;">
+                        <img src="assets/imgs/icones/instagram.png" style="width: 2.5rem;">
+                        <img src="assets/imgs/icones/linkedin.png" style="width: 2.5rem;">
+                    </div>
+
+                    <div class="col-12 col-lg-8 d-flex justify-content-evenly">
+                        <p><a href="#"> Privacidade</a></p>
+                        <p><a href="#"> Termos de serviço</a></p>
+                        <p><a href="#"> Segurança</a></p>
+                        <p><a href="#"> Cookies</a></p>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col d-flex justify-content-center pt-5 pb-2 text-center">
+                        <p class="pt-5" style="color: gray; font-size: 0.7rem;">TODOS OS DIREITOS RESERVADOS
+                            <br>SUA EMPRESA© - SUA EMPRESA AQUI
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <!-- GSAP -->
+    <script>
+        document.addEventListener("DOMContentLoaded", (event) => {
+            gsap.registerPlugin(ScrollTrigger)
+            // gsap code here!
+        });
+
+    </script>
+
+    <!-- AOS.JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Swipper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- personalJS  -->
+
+    <script src="js/navbar.js"></script>
+    <script src="js/timeline.js"></script> <!--Contém o Swipper.JS -->
+    <script type="module" src="js/animations/main.js"></script>
+  
+</body>
+
+</html>
